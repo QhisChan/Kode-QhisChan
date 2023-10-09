@@ -107,7 +107,7 @@ do{
 system("cls");
 cout << "Selamat datang di ruang hati kita.\nSebelum melanjutkan silahkan masukkan Password kunci hati terlebih dahulu\n";
 cout << "Password Hati kita  : ";
-cin >> pw;
+getline (cin,pw);
 } while (pw != cekpw);
 
 pilihan();
